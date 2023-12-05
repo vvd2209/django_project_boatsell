@@ -13,3 +13,4 @@ def send_order_email(order_item: Order):
         settings.EMAIL_HOST_USER,
         [order_item.boat.owner.email]
     )
+#
